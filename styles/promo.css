@@ -1,0 +1,13 @@
+/* styles/promo.css */
+.promo-section {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-top: 5px solid #ffc107; /* Жовтий акцент */
+}
+
+.promo-section img {
+    max-width: 90%;
+    border: 3px solid #ffc107;
+}
