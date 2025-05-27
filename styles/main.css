@@ -12,7 +12,7 @@ body {
 
 h1 {
 
-    color: #00f2ea; 
+    color: #0032ea; 
     text-align: center;
     font-size: 3.2em; /* Трохи більший */
     text-shadow: 0 0 6px #00f2ea, 
@@ -26,7 +26,7 @@ h1 {
 }
 
 h2 {
-    /* ЗМІНА: Новий колір для H2 - неоновий зелений */
+    
     color: #00ff8c; 
     font-size: 1.9em;
     text-shadow: 0 0 4px #00ff8c, 0 0 7px #00ff8c;
@@ -62,7 +62,7 @@ body::before {
     height: 100%;
     z-index: -1;
     opacity: 0.15; 
-    /* ЗМІНА: Інший градієнт для "космічного пилу" */
+    
     background-image: radial-gradient(ellipse at top left, rgba(0,242,234,0.25) 0%, transparent 50%),
                       radial-gradient(ellipse at bottom right, rgba(0,255,140,0.2) 0%, transparent 50%);
 }
@@ -75,4 +75,23 @@ body::before {
     margin-top: -10px;
     margin-bottom: 20px;
     font-size: 0.9em;
+}
+.contact-section {
+    background-color: #e9e9e9; /* Світло-сірий фон */
+    color: #333;
+    padding: 25px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+.contact-section h2 {
+    color: #0056b3; /* Темно-синій для заголовка */
+    text-align: left;
+    border-left: none; /* Прибираємо лівий бордер, який був у main.css для h2 */
+    background-color: transparent; /* Прибираємо фон, який міг бути у main.css для h2 */
+}
+
+.contact-section p {
+    font-size: 1.1em;
+    line-height: 1.8;
 }
